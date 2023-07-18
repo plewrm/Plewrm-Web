@@ -9,7 +9,7 @@ width: 100%;
 
 
 @media (max-width: 1000px) {
-	padding: 70px 30px;
+	padding: 70px 70px;
 }
 `;
 
@@ -59,3 +59,23 @@ color: #fff;
 margin-bottom: 40px;
 font-weight: bold;
 `;
+
+export const CopyRt = styled.div`
+text-align: center;
+color:gray;
+padding:3px ;
+backgroundColor: 'rgba(0, 0, 0, 0.2)' ;
+
+@media (max-width: 1000px) {
+	positin: relative;
+	padding: 80px 60px;
+	margin-top: -70px; 
+
+	
+}
+`
+export const CopyRLink = styled.a`
+color:gray;
+font-size: 12px;
+
+`

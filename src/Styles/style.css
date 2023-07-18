@@ -269,6 +269,7 @@ a {
         width: 20rem;
         border-radius: 1rem; 
     }
+   
 }
 
 @media screen and (max-width: 998px) {
@@ -296,5 +297,6 @@ a {
     .hero-section {
         height: 100vh;
     }
-
+   
 }
+
