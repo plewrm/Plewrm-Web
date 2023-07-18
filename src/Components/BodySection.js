@@ -20,13 +20,13 @@ const BodySection = () => {
                                 <p class="mt-3 mb-5 para-width text-light-grey">Pepper CMP helps marketing teams ideate,
                                     create and distribute content fast and at scale with the power of generative AI and our expert talent network</p>
                                 <div class="text-center w-100 text-md-start">
-                                    {/* <button type="button" class="btn btn-secondary px-4 py-2"
+                                    <button type="button" class="btn btn-secondary px-4 py-2"
                                         data-bs-toggle="tooltip" data-bs-placement="top"
                                         data-bs-custom-class="custom-tooltip"
                                         data-bs-title="This top tooltip is themed via CSS variables.">
                                         Visit Now
-                                    </button> */}
-                                    <button ><a href='/resume.pdf'>Download Resume</a></button>
+                                    </button>
+                                    {/* <button ><a href='/resume.pdf'>Download Resume</a></button> */}
                                 </div>
                             </div>
 

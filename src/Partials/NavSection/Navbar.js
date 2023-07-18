@@ -1,5 +1,6 @@
 import React from 'react'
 import "../../Styles/style.css"
+import { Link, NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     return (
@@ -23,6 +24,12 @@ const Navbar = () => {
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link text-capitalize" href="#online-section">services</a>
+                                    {/* <NavLink
+                                        // className="nav-link"
+                                        class="nav-link text-capitalize"
+                                        to="/service">
+                                        Services
+                                    </NavLink> */}
                                 </li><li class="nav-item">
                                     <a class="nav-link text-capitalize" href="#about-services">about </a>
                                 </li><li class="nav-item">
