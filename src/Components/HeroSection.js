@@ -12,10 +12,10 @@ const HeroSection = () => {
                         <div className="row mb-5">
                             <div className="col-12 mt-5 mt-lg-0 text-center text-lg-start order-lg-0 order-1 col-md-12 col-lg-6 d-flex flex-column justify-content-center align-items-start">
                                 <h1 class="text-capitalize fw-bolder text-white">Hello, Welcome to Design World</h1>
-                                <p class="mt-3 mb-5 para-width text-light-grey">Pepper CMP helps marketing teams ideate,
+                                <p class="mt-3 mb-4 para-width text-light-grey">Pepper CMP helps marketing teams ideate,
                                     create and distribute content fast and at scale with the power of generative AI and our expert talent network</p>
                                 <div class="text-center w-100 text-md-start">
-                                <button type="button" class="btn btn-secondary px-4 py-2"
+                                <button type="button" class="btn btn-secondary mb-5 px-4 py-2"
                                         data-bs-toggle="tooltip" data-bs-placement="top"
                                         data-bs-custom-class="custom-tooltip"
                                         data-bs-title="This top tooltip is themed via CSS variables.">
