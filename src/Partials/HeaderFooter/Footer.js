@@ -48,7 +48,11 @@ const Footer = () => {
                         </Column>
                         <Column>
                             <Heading>Contact Us</Heading>
-                            <FooterLink href="#">Pune</FooterLink>
+                            <FooterLink >
+                                <Link target="_blank" to="https://goo.gl/maps/K35pMByGWv3kt7KP6">
+                                    Pune
+                                </Link>
+                            </FooterLink>
                             <FooterLink href="#">Mumbai</FooterLink>
                             <FooterLink href="#">Delhi</FooterLink>
                             <FooterLink href="#">Indore</FooterLink>
@@ -56,12 +60,12 @@ const Footer = () => {
                         <Column>
                             <Heading>Social Media</Heading>
                             <FooterLink >
-                            <Link target="_balnk"  to="https://www.facebook.com/pawan.salve.5872?mibextid=ZbWKwL">
-                                <i className="fab fa-facebook-f">
-                                    <span style={{ marginLeft: "10px" }}>
-                                        Facebook
-                                    </span>
-                                </i>
+                                <Link target="_balnk" to="https://www.facebook.com/pawan.salve.5872?mibextid=ZbWKwL">
+                                    <i className="fab fa-facebook-f">
+                                        <span style={{ marginLeft: "10px" }}>
+                                            Facebook
+                                        </span>
+                                    </i>
                                 </Link>
                             </FooterLink>
                             <FooterLink>
