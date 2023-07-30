@@ -1,7 +1,7 @@
 import React from 'react'
 import "../../Styles/style.css"
 import { Link, NavLink } from 'react-router-dom';
-
+import LogoImage from '../../Assets/Images/Final_Plewrm.webp'
 const Navbar = () => {
     return (
         <>
@@ -12,6 +12,8 @@ const Navbar = () => {
                         {/* <div className="container-fluid"> */}
                         {/* here flude are use all area and only container make maintained sapce around */}
                         <a className="navbar-brand text-white" href="#">PLEWRM</a>
+                        {/* <img src={LogoImage} alt='linking' className='img-flude' width="160px" autoPlay /> */}
+
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
                         </button>
