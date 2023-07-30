@@ -10,91 +10,95 @@ import {
     CopyRLink,
 } from "./FooterStyles";
 import "../../Styles/style.css"
-
+import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
         <>
             {/*Footer Section */}
             {/* <section className="contact-section" > */}
-                {/* <div className="container text-center common-title fw-bold">
+            {/* <div className="container text-center common-title fw-bold">
           <h2 className="common-heading text-capitalize ">Read More About Pannel</h2>
           <hr className="w-25 mx-auto " />
         </div> */}
-                <Box>
-                    <h1 style={{
-                        color: "white",
-                        textAlign: "center",
-                        marginTop: "-50px"
-                    }}>
-                        Get in Touch
-                    </h1>
-                    <hr className="w-25 mx-auto text-white" />
-                    <Container >
-                        <Row className="cen-align">
-                      
-                            <Column>
-                                <Heading>About Us</Heading>
-                                <FooterLink href="#">Aim</FooterLink>
-                                <FooterLink href="#">Vision</FooterLink>
-                                <FooterLink href="#">Testimonials</FooterLink>
-                            </Column>
-                            <Column>
-                                <Heading>Services</Heading>
-                                <FooterLink href="#">Writing</FooterLink>
-                                <FooterLink href="#">Internships</FooterLink>
-                                <FooterLink href="#">Coding</FooterLink>
-                                <FooterLink href="#">Teaching</FooterLink>
-                            </Column>
-                            <Column>
-                                <Heading>Contact Us</Heading>
-                                <FooterLink href="#">Pune</FooterLink>
-                                <FooterLink href="#">Mumbai</FooterLink>
-                                <FooterLink href="#">Delhi</FooterLink>
-                                <FooterLink href="#">Indore</FooterLink>
-                            </Column>
-                            <Column>
-                                <Heading>Social Media</Heading>
-                                <FooterLink href="#">
-                                    <i className="fab fa-facebook-f">
-                                        <span style={{ marginLeft: "10px" }}>
-                                            Facebook
-                                        </span>
-                                    </i>
-                                </FooterLink>
-                                <FooterLink href="#">
+            <Box>
+                <h1 style={{
+                    color: "white",
+                    textAlign: "center",
+                    marginTop: "-50px"
+                }}>
+                    Get in Touch
+                </h1>
+                <hr className="w-25 mx-auto text-white" />
+                <Container >
+                    <Row className="cen-align">
+
+                        <Column>
+                            <Heading>About Us</Heading>
+                            <FooterLink href="#">Aim</FooterLink>
+                            <FooterLink href="#">Vision</FooterLink>
+                            <FooterLink href="#">Testimonials</FooterLink>
+                        </Column>
+                        <Column>
+                            <Heading>Services</Heading>
+                            <FooterLink href="#">Writing</FooterLink>
+                            <FooterLink href="#">Internships</FooterLink>
+                            <FooterLink href="#">Coding</FooterLink>
+                            <FooterLink href="#">Teaching</FooterLink>
+                        </Column>
+                        <Column>
+                            <Heading>Contact Us</Heading>
+                            <FooterLink href="#">Pune</FooterLink>
+                            <FooterLink href="#">Mumbai</FooterLink>
+                            <FooterLink href="#">Delhi</FooterLink>
+                            <FooterLink href="#">Indore</FooterLink>
+                        </Column>
+                        <Column>
+                            <Heading>Social Media</Heading>
+                            <FooterLink >
+                            <Link target="_balnk"  to="https://www.facebook.com/pawan.salve.5872?mibextid=ZbWKwL">
+                                <i className="fab fa-facebook-f">
+                                    <span style={{ marginLeft: "10px" }}>
+                                        Facebook
+                                    </span>
+                                </i>
+                                </Link>
+                            </FooterLink>
+                            <FooterLink>
+                                <Link target="_balnk" to="https://instagram.com/pawan_pavan135?igshid=MzRlODBiNWFlZA==">
                                     <i className="fab fa-instagram">
                                         <span style={{ marginLeft: "10px" }}>
                                             Instagram
                                         </span>
                                     </i>
-                                </FooterLink>
-                                <FooterLink href="#">
-                                    <i className="fab fa-twitter">
-                                        <span style={{ marginLeft: "10px" }}>
-                                            Twitter
-                                        </span>
-                                    </i>
-                                </FooterLink>
-                                <FooterLink href="#">
-                                    <i className="fab fa-youtube">
-                                        <span style={{ marginLeft: "10px" }}>
-                                            Youtube
-                                        </span>
-                                    </i>
-                                </FooterLink>
-                            </Column>
-                        </Row>
-                        <hr className="w-100 mx-auto text-white" />
-                        {/* <div className='text-center text-white p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}> */}
-                        <CopyRt >
-                            &copy; {new Date().getFullYear()} Copyright:{' '}
-                            <CopyRLink  href='#'>
-                                plewrm.com
-                            </CopyRLink>
-                        </CopyRt>
-                    </Container>
-                </Box>
+                                </Link>
+                            </FooterLink>
+                            {/* <FooterLink href="#">
+                                <i className="fab fa-twitter">
+                                    <span style={{ marginLeft: "10px" }}>
+                                        Twitter
+                                    </span>
+                                </i>
+                            </FooterLink>
+                            <FooterLink href="#">
+                                <i className="fab fa-youtube">
+                                    <span style={{ marginLeft: "10px" }}>
+                                        Youtube
+                                    </span>
+                                </i>
+                            </FooterLink> */}
+                        </Column>
+                    </Row>
+                    <hr className="w-100 mx-auto text-white" />
+                    {/* <div className='text-center text-white p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}> */}
+                    <CopyRt >
+                        &copy; {new Date().getFullYear()} Copyright:{' '}
+                        <CopyRLink href='#'>
+                            plewrm.com
+                        </CopyRLink>
+                    </CopyRt>
+                </Container>
+            </Box>
             {/* </section> */}
             {/*Footer Section */}
         </>
