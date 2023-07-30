@@ -16,10 +16,10 @@ const Footer = () => {
     return (
         <>
             {/*Footer Section */}
-            <section class="contact-section" >
-                {/* <div class="container text-center common-title fw-bold">
-          <h2 class="common-heading text-capitalize ">Read More About Pannel</h2>
-          <hr class="w-25 mx-auto " />
+            {/* <section className="contact-section" > */}
+                {/* <div className="container text-center common-title fw-bold">
+          <h2 className="common-heading text-capitalize ">Read More About Pannel</h2>
+          <hr className="w-25 mx-auto " />
         </div> */}
                 <Box>
                     <h1 style={{
@@ -29,9 +29,9 @@ const Footer = () => {
                     }}>
                         Get in Touch
                     </h1>
-                    <hr class="w-25 mx-auto text-white" />
+                    <hr className="w-25 mx-auto text-white" />
                     <Container >
-                        <Row class="cen-align">
+                        <Row className="cen-align">
                       
                             <Column>
                                 <Heading>About Us</Heading>
@@ -48,10 +48,10 @@ const Footer = () => {
                             </Column>
                             <Column>
                                 <Heading>Contact Us</Heading>
-                                <FooterLink href="#">Uttar Pradesh</FooterLink>
-                                <FooterLink href="#">Ahemdabad</FooterLink>
-                                <FooterLink href="#">Indore</FooterLink>
+                                <FooterLink href="#">Pune</FooterLink>
                                 <FooterLink href="#">Mumbai</FooterLink>
+                                <FooterLink href="#">Delhi</FooterLink>
+                                <FooterLink href="#">Indore</FooterLink>
                             </Column>
                             <Column>
                                 <Heading>Social Media</Heading>
@@ -85,17 +85,17 @@ const Footer = () => {
                                 </FooterLink>
                             </Column>
                         </Row>
-                        <hr class="w-100 mx-auto text-white" />
+                        <hr className="w-100 mx-auto text-white" />
                         {/* <div className='text-center text-white p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}> */}
                         <CopyRt >
                             &copy; {new Date().getFullYear()} Copyright:{' '}
                             <CopyRLink  href='#'>
-                                plewarm.com
+                                plewrm.com
                             </CopyRLink>
                         </CopyRt>
                     </Container>
                 </Box>
-            </section>
+            {/* </section> */}
             {/*Footer Section */}
         </>
     );

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Box = styled.div`
-padding: 80px 60px;
+padding: 60px 60px;
 background: black;
 position: relative;
 bottom: 0;
@@ -68,7 +68,7 @@ backgroundColor: 'rgba(0, 0, 0, 0.2)' ;
 
 @media (max-width: 1000px) {
 	positin: relative;
-	padding: 80px 60px;
+	padding: 80px 4px 60px;
 	margin-top: -70px; 
 
 	
