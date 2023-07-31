@@ -27,6 +27,7 @@ const Footer = () => {
                     textAlign: "center",
                     marginTop: "-50px"
                 }}>
+                    
                     Get in Touch
                 </h1>
                 <hr className="w-25 mx-auto text-white" />
@@ -41,21 +42,21 @@ const Footer = () => {
                         </Column>
                         <Column>
                             <Heading>Services</Heading>
-                            <FooterLink href="#">Writing</FooterLink>
-                            <FooterLink href="#">Internships</FooterLink>
-                            <FooterLink href="#">Coding</FooterLink>
-                            <FooterLink href="#">Teaching</FooterLink>
+                            <FooterLink href="#">Web Development</FooterLink>
+                            <FooterLink href="#">App Development</FooterLink>
+                            <FooterLink href="#">Mobile App</FooterLink>
+                            {/* <FooterLink href="#">Coding</FooterLink> */}
                         </Column>
                         <Column>
-                            <Heading>Contact Us</Heading>
+                            <Heading>Office</Heading>
                             <FooterLink >
                                 <Link target="_blank" to="https://goo.gl/maps/K35pMByGWv3kt7KP6">
                                     Pune
                                 </Link>
                             </FooterLink>
                             <FooterLink href="#">Mumbai</FooterLink>
-                            <FooterLink href="#">Delhi</FooterLink>
-                            <FooterLink href="#">Indore</FooterLink>
+                            {/* <FooterLink href="#">Delhi</FooterLink>
+                            <FooterLink href="#">Indore</FooterLink> */}
                         </Column>
                         <Column>
                             <Heading>Social Media</Heading>

@@ -1,6 +1,7 @@
 import React from 'react'
 import homeImage from '../Assets/Images/pi1.gif'
 import "../Styles/style.css"
+import CursorPointer from '../Utils/CursorPointer'
 
 const HeroSection = () => {
     return (
@@ -8,6 +9,7 @@ const HeroSection = () => {
             <div>
                 {/* Hero Section */}
                 <section className="bg-main bg-color hero-section">
+        <CursorPointer/>
                     <div className="container">
                         <div className="row mb-5">
                             <div className="col-12 mt-5 mt-lg-0 text-center text-lg-start order-lg-0 order-1 col-md-12 col-lg-6 d-flex flex-column justify-content-center align-items-start">
